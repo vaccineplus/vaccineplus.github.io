@@ -1,0 +1,31 @@
+.gtco-video {
+    height: 450px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    border-radius: 14px;
+}
+
+.between-disclose {
+    margin-top: 50px;
+}
+
+.whiteSectionSubHead {
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    font-size: 1.75rem;
+    margin-top: 60px;
+}
+
+.techFlow {
+    width: 1172px;
+    height: 403px;
+}
+
+
+.stuAndInspectorFlow {
+    background: #afa939;
+}
