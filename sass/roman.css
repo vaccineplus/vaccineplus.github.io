@@ -1,0 +1,38 @@
+
+
+
+/* header */
+.secondaryCtaButton{
+    opacity: 0.8;
+    border: solid white 1px;
+}
+
+
+
+
+
+/* footer */
+.footer-buttons-bg-color{
+    background-color:black;
+}
+
+.footer-bg-color {
+background-color: black;
+}
+
+.termsOfUse {
+    padding-top: 30px;
+}
+
+.ui-footer.ui-waves::after {
+    display: block;
+    content: '';
+    height: 100%;
+    background: #A296F7;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    right: -1px;
+    z-index: 1;
+}
