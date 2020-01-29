@@ -36,3 +36,10 @@ background-color: black;
     right: -1px;
     z-index: 1;
 }
+
+.footer-padding {
+    /* padding-top: 5px; */
+    padding: 4px;
+    /* padding-bottom: 15px; */
+    margin-bottom: 8px;
+}
