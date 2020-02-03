@@ -7,14 +7,23 @@
     border: solid white 2px;
 }
 
+/* about */
+.aboutImages {
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* features */
 .featuresImages {
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-	height:46.25px;
-	width:44.8px;
+	height:55px;
+	width:55px;
 }
 
 /* footer */
@@ -48,4 +57,11 @@ background-color: black;
     padding: 4px;
     /* padding-bottom: 15px; */
     margin-bottom: 8px;
+}
+
+/* privacyPolicy */
+.nor {
+    margin-left: 20px;
+    width: 100%;
+    color: #ffffff;
 }

@@ -23,7 +23,6 @@
 	<!-- Navbar Fixed + Default -->
 	<nav class="navbar navbar-fixed-top transparent navbar-light bg-white">
 		<div class="container">
-
 			<!-- Navbar Logo -->
 			<a class="ui-variable-logo navbar-brand" href="index.html" title="Applify - App Landing HTML Template">
 				<!-- Default Logo -->
@@ -38,7 +37,8 @@
 			<div class="ui-navigation navbar-center">
 				<ul class="nav navbar-nav">
 					<li>
-						<a href="about.html" data-scrollto="about">About</a>
+						<!-- <a href="about.html" target="_blank">About</a> -->
+						<a href="#" data-scrollto="about">About</a>
 					</li>
 					<!-- Nav Item -->
 					<li>
@@ -46,7 +46,7 @@
 					</li>
 					<!-- Nav Item -->
 					<li>
-						<a href="#" data-scrollto="how-it-works">Case Studies</a>
+						<a href="#" data-scrollto="caseStudies">Case Studies</a>
 					</li>
 					<!-- Nav Item -->
 					<!-- <li>
@@ -164,9 +164,8 @@
 								</p>
 								<div class="actions sp-layer" data-show-transition="up" data-show-delay="500"
 									data-show-duration="500">
-									<a class="btn ui-gradient-blue shadow-xl secondaryCtaButton"
-										data-scrollto="features">Learn More</a>
-									<a class="btn ui-gradient-green shadow-xl" href="#">Download</a>
+									<a class="btn secondaryCtaButton shadow-xl" data-scrollto="features">Learn More</a>
+									<a class="btn ui-gradient-green shadow-xl back" href="#">Download</a>
 								</div>
 							</div>
 							<div class="col-md-6 sp-layer" data-show-transition="left" data-show-delay="300"
@@ -177,6 +176,7 @@
 						</div>
 					</div>
 				</div>
+
 
 				<!-- Slide 3 -->
 				<!-- <div class="sp-slide">
@@ -211,7 +211,56 @@
 		</div><!-- .ui-hero .slider-pro -->
 
 		<!-- App Features Section -->
-		<div id="features" class="section">
+		<div id="about" class="section">
+			<div class="container ui-icon-blocks ui-blocks-h icons-lg">
+				<div class="section-heading center">
+					<h2 class="heading text-indigo">
+						About Us & What We Do
+					</h2>
+					<p class="paragraph">
+						Our mission is to define a new paradigm in vaccine traceability using blockchain. We are a
+						building a vaccine ecosystem that guarantees transparency, security and trust, all the way from
+						the manufacturer to clinic to patient.
+					</p>
+				</div><!-- .section-heading -->
+				<div class="row">
+					<div class="col-sm-4 ui-icon-block">
+						<div class="icon icon-lg"><img class="aboutImages"
+							style="width: 150px; height: 150px;" src="assets/img/roman/teamPics/x.png"><img>
+						</div>
+						<h4>Anna Der, MD, CFPC</h4>
+						<p>
+							Chief Medical Officer
+						</p>
+					</div>
+					<div class="col-sm-4 ui-icon-block">
+						<div class="icon icon-lg"><img class="aboutImages"
+								style="width: 150px; height: 150px;" src="assets/img/roman/teamPics/chloe.png"><img>
+						</div>
+						<h4>Chloe Chan, HBSc</h4>
+						<p>
+							Chief Executive Officer
+						</p>
+					</div>
+					<div class="col-sm-4 ui-icon-block">
+						<div class="icon icon-lg"><img class="aboutImages"
+								style="width: 150px; height: 150px;" src="assets/img/roman/teamPics/danielle.png"><img>
+						</div>
+						<h4>Danielle Cadoret, BSc, MS-I
+						</h4>
+						<p>
+							Chief Technology Officer
+						</p>
+					</div>
+
+				</div><!-- .row -->
+			</div><!-- .container -->
+		</div><!-- .section -->
+
+
+
+		<!-- App Features Section -->
+		<div id="features" class="section bg-light">
 			<div class="container ui-icon-blocks ui-blocks-h icons-lg">
 				<div class="section-heading center">
 					<h2 class="heading text-indigo">
@@ -280,7 +329,7 @@
 		<!-- .section -->
 
 		<!-- Showcase Blocks Section -->
-		<div id="how-it-works" class="section">
+		<div id="caseStudies" class="section">
 			<div class="container">
 				<!-- Section Heading -->
 				<div class="section-heading center">
@@ -553,7 +602,7 @@
 										<a href="#">Terms of Use</a>
 									</div> -->
 									<div class="footer-padding">
-										<a href="privacyPolicy.html">Privacy Policy</a>
+										<a href="privacyPolicy.html" target="_blank">Privacy Policy</a>
 									</div>
 								</div>
 								<!-- mid (About, FAQ, For Healthcare Providers, Contact Us) -->
@@ -620,10 +669,14 @@
 	<script src="//code.tidio.co/dxmksz2sokkq8rg3b4meepyucokxzon2.js" async></script>
 
 	<!-- chat -->
-	<script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us4.list-manage.com", "uuid": "f2152adea1cf0d86936d2bc0e", "lid": "4ac09ff7e9", "uniqueMethods": true }) })</script>
-	
+	<script
+		type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us4.list-manage.com", "uuid": "f2152adea1cf0d86936d2bc0e", "lid": "4ac09ff7e9", "uniqueMethods": true }) })</script>
+
 	<!-- MC provided chloe -->
-	<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"f2152adea1cf0d86936d2bc0e","lid":"4ac09ff7e9","uniqueMethods":true}) })</script>
+	<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+		data-dojo-config="usePlainJson: true, isDebug: false"></script>
+	<script
+		type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us4.list-manage.com", "uuid": "f2152adea1cf0d86936d2bc0e", "lid": "4ac09ff7e9", "uniqueMethods": true }) })</script>
 	<script src="assets/js/roman.js"></script>
 </body>
 
