@@ -3,8 +3,18 @@
 
 /* header */
 .secondaryCtaButton{
-    opacity: 0.8;
-    border: solid white 1px;
+    background-color:transparent;
+    border: solid white 2px;
+}
+
+
+/* features */
+.featuresImages {
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:46.25px;
+	width:44.8px;
 }
 
 /* footer */
