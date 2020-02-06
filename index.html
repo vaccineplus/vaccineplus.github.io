@@ -6,17 +6,21 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Vaccine Plus</title>
+	<link rel="icon" type="image/png" href="assets/img/roman/appIcon/appIcon.png">
+
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/applify.min.css" />
 	<link rel="stylesheet" href="sass/roman.css" />
 </head>
 
-<!-- <script>
-	function windowFocus() {
-		Window.focus();
-	}
-</script> -->
+<script>
+
+
+
+
+</script>
+
 
 <body class="ui-transparent-nav" data-fade_in="on-load">
 
@@ -24,22 +28,19 @@
 	<nav class="navbar navbar-fixed-top transparent navbar-light bg-white">
 		<div class="container">
 			<!-- Navbar Logo -->
-			<a class="ui-variable-logo navbar-brand" href="index.html" title="Applify - App Landing HTML Template">
+			<a class="ui-variable-logo navbar-brand" href="index.html" title="">
 				<!-- Default Logo -->
-				<img class="logo-default" src="assets/img/logo/applify-logo.png"
-					alt="Vaccine Plus - App Landing HTML Template" data-uhd>
+				<img class="logo-default" src="assets/img/roman/appIcon/horizontal-default.png">
+				<!-- src="assets/img/logo/applify-logo.png" -->
+
 				<!-- Transparent Logo -->
-				<img class="logo-transparent" src="assets/img/logo/applify-logo-white.png"
-					alt="Vaccine Plus - App Landing HTML Template" data-uhd>
+				<img class="logo-transparent" src="assets/img/roman/appIcon/horizontal-transparent.png">
+				<!-- src="assets/img/logo/applify-logo-white.png" -->
 			</a><!-- .navbar-brand -->
 
 			<!-- Navbar Navigation -->
 			<div class="ui-navigation navbar-center">
 				<ul class="nav navbar-nav">
-					<li>
-						<!-- <a href="about.html" target="_blank">About</a> -->
-						<a href="#" data-scrollto="about">About</a>
-					</li>
 					<!-- Nav Item -->
 					<li>
 						<a href="#" data-scrollto="features">Features</a>
@@ -56,6 +57,9 @@
 					<li>
 						<!-- <a href="#">Outbreaks</a> -->
 						<a href="outbreaks.html">Outbreaks</a>
+					</li>
+					<li>
+						<a href="#" data-scrollto="about">About</a>
 					</li>
 					<li>
 						<a href="contact.html">Contact</a>
@@ -140,7 +144,7 @@
 								<div class="actions sp-layer" data-show-transition="up" data-show-delay="500"
 									data-show-duration="500">
 									<a class="btn shadow-xl secondaryCtaButton" data-scrollto="features">Learn More</a>
-									<a class="btn ui-gradient-green shadow-xl" href="#">Download</a>
+									<a data-scrollto="subscribeform"  class="btn ui-gradient-green shadow-xl">Get VaccinePlus</a>
 								</div>
 							</div>
 							<div class="col-md-6 sp-layer" data-show-transition="left" data-show-delay="300"
@@ -168,8 +172,8 @@
 								</p>
 								<div class="actions sp-layer" data-show-transition="up" data-show-delay="500"
 									data-show-duration="500">
-									<a class="btn secondaryCtaButton shadow-xl" data-scrollto="features">Learn More</a>
-									<a class="btn ui-gradient-green shadow-xl back" href="#">Download</a>
+									<a class="btn secondaryCtaButton shadow-xl" data-scrollto="subscribeform">Learn More</a>
+									<a data-scrollto="subscribeform" class="btn ui-gradient-green shadow-xl">Get VaccinePlus</a>
 								</div>
 							</div>
 							<div class="col-md-6 sp-layer" data-show-transition="left" data-show-delay="300"
@@ -214,57 +218,11 @@
 			</div><!-- .sp-slides -->
 		</div><!-- .ui-hero .slider-pro -->
 
-		<!-- App Features Section -->
-		<div id="about" class="section">
-			<div class="container ui-icon-blocks ui-blocks-h icons-lg">
-				<div class="section-heading center">
-					<h2 class="heading text-indigo">
-						About Us & What We Do
-					</h2>
-					<p class="paragraph">
-						Our mission is to define a new paradigm in vaccine traceability using blockchain. We are a
-						building a vaccine ecosystem that guarantees transparency, security and trust, all the way from
-						the manufacturer to clinic to patient.
-					</p>
-				</div><!-- .section-heading -->
-				<div class="row">
-					<div class="col-sm-4 ui-icon-block">
-						<div class="icon icon-lg"><img class="aboutImages" style="width: 150px; height: 150px;"
-								src="assets/img/roman/teamPics/x.png"><img>
-						</div>
-						<h4>Anna Der, MD, CFPC</h4>
-						<p>
-							Chief Medical Officer
-						</p>
-					</div>
-					<div class="col-sm-4 ui-icon-block">
-						<div class="icon icon-lg"><img class="aboutImages" style="width: 150px; height: 150px;"
-								src="assets/img/roman/teamPics/chloe.png"><img>
-						</div>
-						<h4>Chloe Chan, HBSc</h4>
-						<p>
-							Chief Executive Officer
-						</p>
-					</div>
-					<div class="col-sm-4 ui-icon-block">
-						<div class="icon icon-lg"><img class="aboutImages" style="width: 150px; height: 150px;"
-								src="assets/img/roman/teamPics/danielle.png"><img>
-						</div>
-						<h4>Danielle Cadoret, BSc, MS-I
-						</h4>
-						<p>
-							Chief Technology Officer
-						</p>
-					</div>
-
-				</div><!-- .row -->
-			</div><!-- .container -->
-		</div><!-- .section -->
 
 
 
 		<!-- App Features Section -->
-		<div id="features" class="section bg-light">
+		<div id="features" class="section ">
 			<div class="container ui-icon-blocks ui-blocks-h icons-lg">
 				<div class="section-heading center">
 					<h2 class="heading text-indigo">
@@ -309,7 +267,7 @@
 						<p>
 							Receive personalized reminders and tips pre and post-vaccination. Get timely updates based
 							on public health recommendations from real medical doctors and associations in North
-							America, Europe and Asia. [maybe can combine it with Monitor Disease Outbreaks]
+							America, Europe and Asia.
 						</p>
 					</div>
 					<div class="col-sm-3 ui-icon-block">
@@ -333,7 +291,7 @@
 		<!-- .section -->
 
 		<!-- Showcase Blocks Section -->
-		<div id="caseStudies" class="section">
+		<div id="caseStudies" class="section bg-light">
 			<div class="container">
 				<!-- Section Heading -->
 				<div class="section-heading center">
@@ -529,10 +487,56 @@
 		<!--  Blog Posts Section -->
 
 
-		<!-- .section -->
+		<!-- App Features Section -->
+		<div id="about" class="section">
+			<div class="container ui-icon-blocks ui-blocks-h icons-lg">
+				<div class="section-heading center">
+					<h2 class="heading text-indigo">
+						About Us & What We Do
+					</h2>
+					<p class="paragraph">
+						Our mission is to define a new paradigm in vaccine traceability using blockchain. We are a
+						building a vaccine ecosystem that guarantees transparency, security and trust, all the way from
+						the manufacturer to clinic to patient.
+					</p>
+				</div><!-- .section-heading -->
+				<div class="row">
+					<div class="col-sm-4 ui-icon-block">
+						<div class="icon icon-lg"><img class="aboutImages" style="width: 150px; height: 150px;"
+								src="assets/img/roman/teamPics/x.png"><img>
+						</div>
+						<h4>Anna Der, MD, CFPC</h4>
+						<p>
+							Chief Medical Officer
+						</p>
+					</div>
+					<div class="col-sm-4 ui-icon-block">
+						<div class="icon icon-lg"><img class="aboutImages" style="width: 150px; height: 150px;"
+								src="assets/img/roman/teamPics/chloe.png"><img>
+						</div>
+						<h4>Chloe Chan, HBSc</h4>
+						<p>
+							Chief Executive Officer
+						</p>
+					</div>
+					<div class="col-sm-4 ui-icon-block">
+						<div class="icon icon-lg"><img class="aboutImages" style="width: 150px; height: 150px;"
+								src="assets/img/roman/teamPics/danielle.png"><img>
+						</div>
+						<h4>Danielle Cadoret, BSc, MS-I
+						</h4>
+						<p>
+							Chief Technology Officer
+						</p>
+					</div>
+
+				</div><!-- .row -->
+			</div><!-- .container -->
+		</div><!-- .section -->
+
 
 		<!-- Subscribe Waves Footer -->
-		<footer id="subscribeform" class="ui-footer subscribe-footer ui-waves">
+		<footer id="subscribeform" name="subscribeform" class="ui-footer subscribe-footer ui-waves">
 			<div class="ui-gradient-blue footer-bg">
 				<div class="container">
 					<!-- Form Card -->
@@ -540,7 +544,7 @@
 						<div class="card-header ui-gradient-blue">
 							<h3 class="heading text-indigo">Be the first to know…</h3>              
 							<p class="paragraph">
-								WHEN VACCINE PLUS IS AVAILABLE IN YOUR AREA
+								“When VaccinePLUS is available in your area”
 							</p>
 						</div>
 						<div class="card-body">
