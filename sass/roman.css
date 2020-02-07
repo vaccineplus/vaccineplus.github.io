@@ -5,7 +5,11 @@
 .secondaryCtaButton{
     background-color:transparent;
     border: solid white 2px;
+    z-index: 7;
+    position:relative
 }
+
+
 
 /* about */
 .aboutImages {
