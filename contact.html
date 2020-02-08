@@ -117,7 +117,7 @@
                                 <div class="form-group">
                                     <!-- Name Input -->
                                     <input autocomplete="name" class="input form-control" data-validation="required"
-                                        data-validation-error-msg="Please enter your full name." name="name"
+                                        data-validation-error-msg="Please enter your full name." name="name" id="cName"
                                         placeholder="Your Name *">
                                 </div>
                             </div>
@@ -127,12 +127,12 @@
                                         <!-- Email Input -->
                                         <input autocomplete="email" class="input form-control"
                                             data-validation="required"
-                                            data-validation-error-msg="Please enter your email address." name="email"
+                                            data-validation-error-msg="Please enter your email address." name="email" id="cEmail"
                                             placeholder="Email Address *">
                                     </div>
                                     <div class="col-sm-6">
                                         <!-- Phone Input -->
-                                        <input autocomplete="tel" class="input form-control" data-validation="required"
+                                        <input autocomplete="tel" class="input form-control" data-validation="required" id="cPhone"
                                             data-validation-error-msg="Please enter your phone number." name="phone"
                                             placeholder="Phone Number *">
                                     </div>
@@ -140,7 +140,7 @@
                             </div>
                             <div class="form-group">
                                 <textarea class="input form-control" data-validation="required"
-                                    data-validation-error-msg="Please leave a message." name="message"
+                                    data-validation-error-msg="Please leave a message." name="message" id="msg"
                                     placeholder="Your Message" rows="3"></textarea>
                             </div>
 
@@ -246,6 +246,8 @@
     <script src="assets/js/libs/bootstrap.js"></script>
     <script src="assets/js/libs/prism/prism.js"></script>
     <script src="assets/js/applify/build/applify.js"></script>
+
+    <script type=“text/javascript” src=“//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js” data-dojo-config=“usePlainJson: true, isDebug: false”></script><script type=“text/javascript”>window.dojoRequire([“mojo/signup-forms/Loader”], function(L) { L.start({“baseUrl”:“mc.us4.list-manage.com”,“uuid”:“f2152adea1cf0d86936d2bc0e”,“lid”:“4ac09ff7e9”,“uniqueMethods”:true}) })</script>
 
 </script> <script src="assets/js/roman.js"></script>
 </body>

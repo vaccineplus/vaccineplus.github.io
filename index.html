@@ -572,11 +572,11 @@
 										<!-- Email Input -->
 										<input autocomplete="email" class="input form-control"
 											data-validation="required"
-											data-validation-error-msg="Please enter your email" name="email"
+											data-validation-error-msg="Please enter your email" name="email" id="email"
 											placeholder="Email">
-										<div class="input-group-append">
+										<div class="input-group-append" id="resStatus">
 											<!-- Submit Button -->
-											<button class="btn ui-gradient-green" onclick="emailSub()">SIGN UP <span
+											<button id="emailSubBtn" class="btn ui-gradient-green" onclick="emailSub()">SIGN UP <span
 													class="fa fa-send"></span></button>
 										</div>
 									</div>
@@ -698,12 +698,9 @@
 	<script src="assets/js/applify/build/applify.js"></script>
 	<script src="//code.tidio.co/dxmksz2sokkq8rg3b4meepyucokxzon2.js" async></script>
 
-	<script type=“text/javascript” src=“//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js”
-		data-dojo-config=“usePlainJson: true, isDebug: false”></script>
-	<script type=“text/javascript”>window.dojoRequire([“mojo/signup-forms/Loader”], function(L) {
-		L.start({“baseUrl”:“mc.us4.list-manage.com”,“uuid”:“f2152adea1cf0d86936d2bc0e”,“lid”:“4ac09ff7e9”,“uniqueMethods”:true})
-		})
-	</script> <script src="assets/js/roman.js"></script>
+	<script type=“text/javascript” src=“//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js” data-dojo-config=“usePlainJson: true, isDebug: false”></script><script type=“text/javascript”>window.dojoRequire([“mojo/signup-forms/Loader”], function(L) { L.start({“baseUrl”:“mc.us4.list-manage.com”,“uuid”:“f2152adea1cf0d86936d2bc0e”,“lid”:“4ac09ff7e9”,“uniqueMethods”:true}) })</script>
+	
+	<script src="assets/js/roman.js"></script>
 </body>
 
 </html>
