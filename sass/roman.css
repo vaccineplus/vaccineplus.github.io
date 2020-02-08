@@ -17,6 +17,10 @@ html{scroll-behavior:smooth}
     height: 100%;
 }
 
+.featuresIconBgColor {
+    background-color: #B7BBFB;
+}
+
 /* features */
 .featuresImages {
 	background-position:center;
