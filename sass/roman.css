@@ -17,7 +17,6 @@ html{scroll-behavior:smooth}
     height: 100%;
 }
 
-
 /* features */
 .featuresImages {
 	background-position:center;
@@ -25,6 +24,10 @@ html{scroll-behavior:smooth}
 	background-size:cover;
 	height:36px;
 	width:36px;
+}
+
+.icon-bgColor{
+    background-color: #B7BBFB;
 }
 
 /* footer */
