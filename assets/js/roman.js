@@ -1,75 +1,75 @@
-function emailSub() {
-  console.log('emailSub');
+// function emailSub() {
+//   console.log('emailSub');
 
-  var email = document.getElementById('email').value;
+//   var email = document.getElementById('email').value;
 
-  if (email != "") {
-    console.log(email);
-    var settings = {
-      "url": "https://entmz4e15t98.x.pipedream.net/",
-      "method": "POST",
-      "timeout": 0,
-      "headers": {
-        "Content-Type": "application/json"
-      },
-      "data": JSON.stringify({
-        "email": email
-      }),
-    };
+//   if (email != "") {
+//     console.log(email);
+//     var settings = {
+//       "url": "https://entmz4e15t98.x.pipedream.net/",
+//       "method": "POST",
+//       "timeout": 0,
+//       "headers": {
+//         "Content-Type": "application/json"
+//       },
+//       "data": JSON.stringify({
+//         "email": email
+//       }),
+//     };
 
-    $.ajax(settings).done(function (response) {
+//     $.ajax(settings).done(function (response) {
 
-      if (response.success == true) {
-        console.log(true);
-        document.getElementById('emailSubBtn').innerHTML = 'Success';
-      } else {
-        document.getElementById('emailSubBtn').innerHTML = 'Fail';
-        console.log(false);
-      }
-    });
-  }
-}
+//       if (response.success == true) {
+//         console.log(true);
+//         document.getElementById('emailSubBtn').innerHTML = 'Success';
+//       } else {
+//         document.getElementById('emailSubBtn').innerHTML = 'Fail';
+//         console.log(false);
+//       }
+//     });
+//   }
+// }
 
 
 
-function contactSub() {
-  console.log('contactSub');
+// function contactSub() {
+//   console.log('contactSub');
 
-  var cName = document.getElementById('cName').value;
-  var cPhone = document.getElementById('cPhone').value;
-  var cEmail = document.getElementById('cEmail').value;
-  var msg = document.getElementById('msg').value;
+//   var cName = document.getElementById('cName').value;
+//   var cPhone = document.getElementById('cPhone').value;
+//   var cEmail = document.getElementById('cEmail').value;
+//   var msg = document.getElementById('msg').value;
 
-  if (cName != "" && cPhone != "" && cEmail != "" && msg != "") {
-    // console.log(email);
-    var settings = {
-      "url": "https://entmz4e15t98.x.pipedream.net/",
-      "method": "POST",
-      "timeout": 0,
-      "headers": {
-        "Content-Type": "application/json"
-      },
-      "data": JSON.stringify({
-        "email": cEmail,
-        "phone": cPhone,
-        "name": cName,
-        "msg": msg
-      }),
-    };
+//   if (cName != "" && cPhone != "" && cEmail != "" && msg != "") {
+//     // console.log(email);
+//     var settings = {
+//       "url": "https://entmz4e15t98.x.pipedream.net/",
+//       "method": "POST",
+//       "timeout": 0,
+//       "headers": {
+//         "Content-Type": "application/json"
+//       },
+//       "data": JSON.stringify({
+//         "email": cEmail,
+//         "phone": cPhone,
+//         "name": cName,
+//         "msg": msg
+//       }),
+//     };
 
-    $.ajax(settings).done(function (response) {
+//     $.ajax(settings).done(function (response) {
 
-      if (response.success == true) {
-        console.log(true);
-        document.getElementById('emailSubBtn').innerHTML = 'Success';
-      } else {
-        document.getElementById('emailSubBtn').innerHTML = 'Fail';
-        console.log(false);
-      }
-    });
-  }
+//       if (response.success == true) {
+//         console.log(true);
+//         document.getElementById('emailSubBtn').innerHTML = 'Success';
+//       } else {
+//         document.getElementById('emailSubBtn').innerHTML = 'Fail';
+//         console.log(false);
+//       }
+//     });
+//   }
 
-}
+// }
 
 
 var TxtRotate = function (el, toRotate, period) {
