@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vaccine Plus</title>
-	<link rel="icon" type="image/png" href="assets/img/roman/appIcon/appIcon.png">
+    <link rel="icon" type="image/png" href="assets/img/roman/appIcon/appIcon.png">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/applify.min.css" />
@@ -17,21 +17,21 @@
     <!-- Navbar Fixed -> Indigo -->
     <nav class="navbar navbar-fixed-top transparent navbar-dark bg-dark-gray">
         <div class="container">
-			<!-- Navbar Logo -->
-			<a class="ui-variable-logo navbar-brand" href="index.html" title="">
-				<!-- Default Logo -->
-				<img class="logo-default" src="assets/img/roman/appIcon/horizontal-default.png">
-				<!-- src="assets/img/logo/applify-logo.png" -->
+            <!-- Navbar Logo -->
+            <a class="ui-variable-logo navbar-brand" href="index.html" title="">
+                <!-- Default Logo -->
+                <img class="logo-default" src="assets/img/roman/appIcon/horizontal-default.png">
+                <!-- src="assets/img/logo/applify-logo.png" -->
 
-				<!-- Transparent Logo -->
-				<img class="logo-transparent" src="assets/img/roman/appIcon/horizontal-default.png">
-				<!-- src="assets/img/logo/applify-logo-white.png" -->
-			</a><!-- .navbar-brand -->
+                <!-- Transparent Logo -->
+                <img class="logo-transparent" src="assets/img/roman/appIcon/horizontal-default.png">
+                <!-- src="assets/img/logo/applify-logo-white.png" -->
+            </a><!-- .navbar-brand -->
 
             <!-- Navbar Navigation -->
             <div class="ui-navigation navbar-right">
                 <ul class="nav navbar-nav">
-        
+
                     <!-- Nav Item -->
                     <li>
                         <a href="index.html#features">Features</a>
@@ -53,8 +53,8 @@
                         <a href="index.html#about">About</a>
                     </li>
                     <li>
-						<a href="healthcareProvider.html">Healthcare Providers</a>
-					</li>
+                        <a href="healthcareProvider.html">Healthcare Providers</a>
+                    </li>
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
@@ -112,7 +112,10 @@
                             </p>
                         </div>
                         <!-- Form -->
-                        <form autocomplete="on" id="contact-form" name="contact-form">
+                        <form autocomplete="on" name="contact-form"
+                            action="https://vaccineplus.us4.list-manage.com/subscribe/post?u=f2152adea1cf0d86936d2bc0e&amp;id=4ac09ff7e9"
+                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                            class="validate" target="_blank" novalidate>
                             <div class="form-group">
                                 <div class="form-group">
                                     <!-- Name Input -->
@@ -127,14 +130,15 @@
                                         <!-- Email Input -->
                                         <input autocomplete="email" class="input form-control"
                                             data-validation="required"
-                                            data-validation-error-msg="Please enter your email address." name="email" id="cEmail"
-                                            placeholder="Email Address *">
+                                            data-validation-error-msg="Please enter your email address."
+                                            placeholder="Email Address *" name="EMAIL" class="required email"
+                                            id="mce-EMAIL">
                                     </div>
                                     <div class="col-sm-6">
                                         <!-- Phone Input -->
-                                        <input autocomplete="tel" class="input form-control" data-validation="required" id="cPhone"
-                                            data-validation-error-msg="Please enter your phone number." name="phone"
-                                            placeholder="Phone Number *">
+                                        <input autocomplete="tel" class="input form-control" data-validation="required"
+                                            id="cPhone" data-validation-error-msg="Please enter your phone number."
+                                            name="phone" placeholder="Phone Number *">
                                     </div>
                                 </div>
                             </div>
@@ -144,7 +148,8 @@
                                     placeholder="Your Message" rows="3"></textarea>
                             </div>
 
-                            <button type="" class="btn btn-block ui-gradient-green shadow-md" onclick="contactSub()">Submit</button>
+                            <button type="" class="btn btn-block ui-gradient-green shadow-md"
+                                onclick="contactSub()">Submit</button>
                         </form><!-- Form -->
                     </div>
                     <div class="col-md-5">
@@ -153,7 +158,7 @@
                                 <h3 class="heading">Contact Info</h3>
                             </div>
                             <div class="card-body">
-                                <ul class="ui-icon-blocks ui-blocks-v"> 
+                                <ul class="ui-icon-blocks ui-blocks-v">
                                     <!-- <li class="ui-icon-block">
                                         <span class="icon icon-clock"></span>
                                         <p>Mon - Fri 08:00 - 19:00</p>
@@ -247,9 +252,29 @@
     <script src="assets/js/libs/prism/prism.js"></script>
     <script src="assets/js/applify/build/applify.js"></script>
 
-    <script type=“text/javascript” src=“//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js” data-dojo-config=“usePlainJson: true, isDebug: false”></script><script type=“text/javascript”>window.dojoRequire([“mojo/signup-forms/Loader”], function(L) { L.start({“baseUrl”:“mc.us4.list-manage.com”,“uuid”:“f2152adea1cf0d86936d2bc0e”,“lid”:“4ac09ff7e9”,“uniqueMethods”:true}) })</script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>
+        (function ($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+            fnames[1] = 'FNAME';
+            ftypes[1] = 'text';
+            fnames[2] = 'LNAME';
+            ftypes[2] = 'text';
+            fnames[3] = 'ADDRESS';
+            ftypes[3] = 'address';
+            fnames[4] = 'PHONE';
+            ftypes[4] = 'phone';
+            fnames[5] = 'BIRTHDAY';
+            ftypes[5] = 'birthday';
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
+    </script>
 
-</script> <script src="assets/js/roman.js"></script>
+
+    <script src="assets/js/roman.js"></script>
 </body>
 
 </html>

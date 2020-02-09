@@ -566,18 +566,22 @@
 						</div>
 						<div class="card-body">
 							<!-- Form -->
-							<form autocomplete="on" id="sign-up-form" name="sign-up-form">
+							<form
+								action="https://vaccineplus.us4.list-manage.com/subscribe/post?u=f2152adea1cf0d86936d2bc0e&amp;id=4ac09ff7e9"
+								method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+								class="validate" target="_blank" novalidate>
 								<div class="form-group">
 									<div class="input-group">
 										<!-- Email Input -->
 										<input autocomplete="email" class="input form-control"
 											data-validation="required"
-											data-validation-error-msg="Please enter your email" name="email" id="email"
-											placeholder="Email">
+											data-validation-error-msg="Please enter your email" type="email" value=""
+											name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
 										<div class="input-group-append" id="resStatus">
 											<!-- Submit Button -->
-											<button id="emailSubBtn" class="btn ui-gradient-green" onclick="emailSub()">SIGN UP <span
-													class="fa fa-send"></span></button>
+											<button id="emailSubBtn" class="btn ui-gradient-green" value="Subscribe"
+												name="subscribe" id="mc-embedded-subscribe" onclick="emailSub()">SIGN UP
+												<span class="fa fa-send"></span></button>
 										</div>
 									</div>
 								</div>
@@ -698,9 +702,32 @@
 	<script src="assets/js/applify/build/applify.js"></script>
 	<script src="//code.tidio.co/dxmksz2sokkq8rg3b4meepyucokxzon2.js" async></script>
 
-	<script type=“text/javascript” src=“//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js” data-dojo-config=“usePlainJson: true, isDebug: false”></script><script type=“text/javascript”>window.dojoRequire([“mojo/signup-forms/Loader”], function(L) { L.start({“baseUrl”:“mc.us4.list-manage.com”,“uuid”:“f2152adea1cf0d86936d2bc0e”,“lid”:“4ac09ff7e9”,“uniqueMethods”:true}) })</script>
-	
-	<script src="assets/js/roman.js"></script>
+
+
+
+
+	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+	<script type='text/javascript'>
+		(function ($) {
+			window.fnames = new Array();
+			window.ftypes = new Array();
+			fnames[0] = 'EMAIL';
+			ftypes[0] = 'email';
+			fnames[1] = 'FNAME';
+			ftypes[1] = 'text';
+			fnames[2] = 'LNAME';
+			ftypes[2] = 'text';
+			fnames[3] = 'ADDRESS';
+			ftypes[3] = 'address';
+			fnames[4] = 'PHONE';
+			ftypes[4] = 'phone';
+			fnames[5] = 'BIRTHDAY';
+			ftypes[5] = 'birthday';
+		}(jQuery));
+		var $mcj = jQuery.noConflict(true);
+	</script>
+	<!--End mc_embed_signup-->
+		<script src="assets/js/roman.js"></script>
 </body>
 
 </html>
